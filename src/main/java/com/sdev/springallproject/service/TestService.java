@@ -15,7 +15,7 @@ public class TestService {
 	public List<Test> getAllNames() {
 		List testList = new ArrayList<Test>();
 		testList.add(new Test("test1"));
-		testList.add(new Test("test2"));
+		testList.add(new Test("test22"));
 		testList.add(new Test("test3"));
 		testList.add(new Test("test4"));
 		return testList;
