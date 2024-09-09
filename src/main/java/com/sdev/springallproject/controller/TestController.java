@@ -22,6 +22,7 @@ public class TestController {
 
 	@GetMapping("/test")
 	public List<Test> getAllTestNames() {
+		System.out.println("Hello");
 		return testService.getAllNames();
 
 	}
